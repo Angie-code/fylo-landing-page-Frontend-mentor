@@ -1,8 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: midnightblue;
+    background-color: rgb(44, 44, 48);
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+header nav {
+    margin: auto;
+    width: 80%;
+    height: 15vh;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    float: right;
+    gap: 2rem;
+    color: white;
+}
